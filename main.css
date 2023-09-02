@@ -179,7 +179,18 @@ li {
 }
 #Gnb .gnb_menu_list>li {
     float:left;
+    margin-left:45px;
 }
 #Gnb .gnb_menu_list>li:first-child {
     margin-left:50px;
+}
+
+#Gnb .gnb_menu_list>li>a{
+    display:block;
+    height:44px;
+    line-height:44px;
+    color:#000;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing:-.04em;
 }
