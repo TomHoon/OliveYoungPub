@@ -194,3 +194,218 @@ li {
     font-weight: 700;
     letter-spacing:-.04em;
 }
+
+#Container {
+    width: 100%;
+    min-width: 1020px;
+}
+
+#Contents {
+    width:1020px;
+    height:100%;
+    margin: 0 auto;
+}
+
+.main_full_banner {
+    width: 100%;
+    height: 450px;
+}
+
+.main_full_banner .banner_wrap {
+    position: absolute;
+    width: 100%;
+    left:0;
+    background: #f5f5f5;
+    z-index: 0;
+    height:450px;
+    min-width:1020px;
+    overflow:hidden;
+}
+
+.slick-slider {
+    display:block;
+    position:relative;
+}
+
+.main_full_banner .banner_wrap .slick-arrow.slick-prev {
+    left: 50%;
+    margin-left:-290px;
+}
+
+.main_full_banner .banner_wrap .slick-arrow {
+    position: absolute;
+    bottom:30px;
+    z-index: 2;
+}
+
+.slick-arrow.slick-prev {
+    background-position: 0 0;
+}
+
+.slick-arrow {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("https://static.oliveyoung.co.kr/pc-static-root/image/comm/ico_arrow40x40_2.png") no-repeat;
+    text-indent: -9999px;
+}
+
+.main_full_banner .banner_wrap .slick-list {
+    min-width: 1020px;
+}
+
+.slick-list {
+    position:relative;
+    display: block;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    min-width:1020px;
+}
+
+.slick-track {
+    position: relative;
+    top:0;
+    left:0;
+    display:block;
+    z-index: 1;
+}
+
+.slick-initialized .slick-slide {
+    display:block;
+}
+
+.slick-slide {
+    float: left;
+    height:100%;
+    min-height:1px;
+}
+
+.main_full_banner .banner_link {
+    display:block;
+    position:relative;
+    height:450px;
+    overflow:hidden;
+}
+
+.main_full_banner .banner_link .banner_desc {
+    position:absolute;
+    top:52px;
+    left:50%;
+    font-size:18px;
+    color:#666;
+    z-index:1;
+    margin-left:-290px;
+    font-weight:700;
+}
+
+.main_full_banner .banner_link .banner_desc .tit{
+    display:block;
+    font-size:18px;
+    color:#000;
+}
+
+.main_full_banner .banner_link .banner_desc strong {
+    display:block;
+    width:360px;
+    margin-bottom: 10px;
+    font-size:48px;
+    color:#1f1f1f;
+    line-height:56px;
+    word-break: keep-all;
+    font-weight: 400;
+}
+
+strong { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main_full_banner .banner_link img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+img {
+    border: 0;
+    vertical-align:top;
+    color: #666;
+}
+
+.main_mid_banner {
+    margin: 50px 0 0;
+}
+
+.main_mid_banner > a{
+    display:block;
+    width:1020px;
+    vertical-align:bottom;
+}
+
+.main_mid_banner img {
+    width: 1020px;
+    height:102px;
+}
+
+.curation_area .two {
+    height: auto;
+    margin-top: 0;
+    border-bottom: 0;
+}
+
+.curation_area .two .inner {
+    overflow: hidden;
+    float:left;
+    width:50%;
+    height:575px;
+}
+
+.curation_area .two .curation_slide .type03 {
+    margin-top: 26px;
+    margin-bottom:27px;
+}
+
+.curation_area .curation_slide {
+    position:relative;
+    margin-top: 50px;
+}
+
+.curation_area .two .tit_type03 {
+    height:62px;
+}
+
+.tit_type03 {
+    margin: 60px 30px 0;
+    font-weight: 700;
+    font-size:24px;
+    color: #000;
+    position:relative;
+    line-height:1.3;
+    letter-spacing:0;
+}
+
+.tit_type03 .moreBtn {
+    position:absolute;
+    bottom:3px;
+    right:0;
+    background: #fff;
+}
+
+.tit_type03 .moreBtn span {
+    padding-right: 11px;
+    background: url("https://static.oliveyoung.co.kr/pc-static-root/image/curation/ico_more_5x10.png") center right 0/5px auto no-repeat;
+    font-size: 15px;
+    font-weight:500;
+    color: #aaa;
+}
+
+.curation_area .two .curation_slide .type03 .slick-list {
+    overflow:hidden;
+    height:320px;
+}
